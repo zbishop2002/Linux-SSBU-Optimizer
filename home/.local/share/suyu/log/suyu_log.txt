@@ -1,0 +1,23 @@
+[   0.083840] Input <Info> input_common/drivers/udp_client.cpp:UDPClient:139: Udp Initialization started
+[   0.083858] Input <Info> input_common/drivers/udp_client.cpp:StartCommunication:331: Starting communication with UDP input server on 127.0.0.1:26760
+[   0.260140] Input <Info> input_common/drivers/joycon.cpp:Joycons:22: Joycon driver Initialization started
+[   0.296468] Frontend <Info> suyu/main.cpp:GMainWindow:359: suyu Version: suyu Development Build | dev-0de49070e4
+[   0.296472] Frontend <Info> suyu/main.cpp:LogRuntimes:244: Qt Compile: 5.15.2 Runtime: 5.15.2
+[   0.296473] Frontend <Info> suyu/main.cpp:GMainWindow:375: Host CPU: AMD Ryzen 5 3500X 6-Core Processor              | AVX2 | FMA
+[   0.296504] Frontend <Info> suyu/main.cpp:GMainWindow:377: Host CPU Cores: 6
+[   0.296505] Frontend <Info> suyu/main.cpp:GMainWindow:380: Host CPU Threads: 6
+[   0.296514] Frontend <Info> suyu/main.cpp:GMainWindow:381: Host OS: EndeavourOS
+[   0.296526] Frontend <Info> suyu/main.cpp:GMainWindow:382: Host RAM: 15.55 GiB
+[   0.296527] Frontend <Info> suyu/main.cpp:GMainWindow:384: Host Swap: 15.78 GiB
+[   0.385945] Crypto <Error> core/crypto/key_manager.cpp:BaseDeriveNecessary:800: No prod.keys found
+[   3.381456] Service.FS <Info> core/file_sys/system_archive/system_archive.cpp:SynthesizeSystemArchive:76: Synthesizing system archive 'SystemVersion' (0x0100000000000809).
+[   3.381462] Common.Filesystem <Warning> core/file_sys/system_archive/system_version.cpp:SystemVersion:16: called - Using hardcoded firmware version 'NintendoSDK Firmware for NX 12.1.0-1.0'
+[   3.384351] Service.FS <Info> core/file_sys/system_archive/system_archive.cpp:SynthesizeSystemArchive:94:     - System archive generation successful!
+[   3.384371] Frontend <Info> suyu/main.cpp:SetFirmwareVersion:4855: Installed firmware: No firmware available
+[   3.384435] Frontend <Warning> suyu/game_list.cpp:LoadCompatibilityList:772: Game compatibility list is empty
+[   5.018027] Config <Info> frontend_common/config.cpp:WriteToIni:74: Writing Global configuration to: /home/zachary/Documents/Github/SuyuSSBUOptimized/home/.config/suyu/qt-config.ini
+[   5.021693] Config <Info> frontend_common/config.cpp:WriteToIni:74: Writing Global configuration to: /home/zachary/Documents/Github/SuyuSSBUOptimized/home/.config/suyu/qt-config.ini
+[   5.023477] Common.Filesystem <Error> common/fs/file.cpp:Open:281: Failed to open the file at path=/home/zachary/Documents/Github/SuyuSSBUOptimized/home/.local/share/suyu/play_time/580f0ce3e36f1a2d6d39164ece69a302.bin, ec_message=No such file or directory
+[   5.023481] Frontend <Error> suyu/play_time_manager.cpp:WritePlayTimeFile:82: Failed to open play time file: /home/zachary/Documents/Github/SuyuSSBUOptimized/home/.local/share/suyu/play_time/580f0ce3e36f1a2d6d39164ece69a302.bin
+[   5.023482] Frontend <Error> suyu/play_time_manager.cpp:Save:149: Failed to update play time database!
+[   5.023482] Frontend <Error> suyu/play_time_manager.cpp:Save:149: Failed to update play time database!
