@@ -1,15 +1,11 @@
 #!/bin/bash
 
-# Extract sdmc.zip
-if unzip -o sdmc.zip > /dev/null 2>&1; then
-  echo "sdmc.zip successfully extracted."
-else
-  echo "Failed to unzip sdmc.zip."
-  exit 1
-fi
+# Define paths
+SOURCE_INI_FILE="/emulator-files/01006A800016E000.ini"
+SOURCE_SDMC="/emulator-files/sdmc"
 
 # Prompt user to select an option
-echo "Your emulator's sdmc folder will be renamed to sdmc-backup, and a fresh sdmc (modded for SSBU only) will replace it. Select the installed emulator on which you want the mods:"
+echo "Select the emulator where you want to install mods (the sdmc folder of your selected emulator, containing all its current mods, will remain in the same directory but renamed to sdmc-backup. The repo's sdmc folder will replace it.):"
 echo "1) Yuzu AppImage"
 echo "2) Yuzu Flatpak"
 echo "3) Suyu AppImage"
@@ -19,12 +15,15 @@ read -p "Enter your choice (1/2/3): " choice
 case $choice in
   1)
     target_dir="$HOME/.local/share/yuzu"
+    custom_dir="$HOME/.config/yuzu/custom"
     ;;
   2)
     target_dir="$HOME/.var/app/org.yuzu_emu.yuzu/data/yuzu"
+    custom_dir="$HOME/.var/app/org.yuzu_emu.yuzu/config/yuzu/custom"
     ;;
   3)
     target_dir="$HOME/.local/share/suyu"
+    custom_dir="$HOME/.config/suzu/custom"
     ;;
   *)
     echo "Invalid choice. Exiting."
@@ -36,6 +35,11 @@ esac
 if [ -d "$target_dir/sdmc" ]; then
   mv "$target_dir/sdmc" "$target_dir/sdmc-backup" || { echo "Failed to rename existing sdmc to sdmc-backup"; exit 1; }
 fi
-cp -r sdmc "$target_dir/" || { echo "Failed install mods by copying sdmc to $target_dir"; exit 1; }
+cp -r "$SOURCE_SDMC" "$target_dir/" || { echo "Failed to copy $SOURCE_SDMC to $target_dir"; exit 1; }
 
-echo "Mods successfully installed, old sdmc backed up in $target_dir"
+# Ensure custom directory exists and copy .ini file
+mkdir -p "$custom_dir" || { echo "Failed to create custom directory at $custom_dir"; exit 1; }
+cp "$SOURCE_INI_FILE" "$custom_dir" || { echo "Failed to copy $SOURCE_INI_FILE to $custom_dir"; exit 1; }
+
+echo "Mods folder (sdmc) and custom settings successfully installed for the selected emulator."
+
