@@ -36,6 +36,6 @@ Place **/Linux-SSBU-Optimizer/emulator-files/01006A800016E000.ini** in its corre
 If you have other mods installed and want to try to install the SSBU mods alongside them, you can try manually merging the contents of **/Linux-SSBU-Optimizer/emulator-files/sdmc/** with your preferred emulator's current sdmc. These are the corresponding paths: 
 - Yuzu
   - AppImage: `~/.local/share/yuzu/sdmc`
-  - Flatpak: `~/.var/app/org.yuzu_emu.yuzu/data/sdmc`
+  - Flatpak: `~/.var/app/org.yuzu_emu.yuzu/data/yuzu/sdmc`
 - Suyu AppImage: `~/.local/share/suyu/sdmc`
 
