@@ -16,7 +16,7 @@ The `ssbu-optimizer.sh` script automatically:
 ```
 git clone https://github.com/zbishop2002/Linux-SSBU-Optimizer.git && \
 cd Linux-SSBU-Optimizer && \ 
-./ssbu-optimizer
+./ssbu-optimizer.sh
 ```
 
 ## Alternative: Isolated Suyu Instance
