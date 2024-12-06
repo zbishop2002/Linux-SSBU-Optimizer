@@ -17,7 +17,7 @@ This repository provides a Linux port of [yuzu-ssbu-optimizer](https://github.co
     - Loads a configuration tailored specifically for SSBU performance and compatibility.
     - Automatically imports a fully completed SSBU save file for convenience.
 
-You can choose to install any combination of the above three to your desired emulator.
+You can choose to install any combination of the above three options to your desired emulator.
 
 **Prerequisites**
 - Installed yuzu or suyu
