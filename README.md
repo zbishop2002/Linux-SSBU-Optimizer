@@ -12,7 +12,12 @@ The `ssbu-optimizer.sh` script automatically:
 - Installs a fresh **sdmc** folder preloaded with SSBU mods.
 - Loads in optimal SSBU game specific configuration  
 
-## Quickstart: Execute in a Single Command
+**Prerequisites**
+- Installed yuzu or suyu
+- Added SSBU game directory to yuzu/suyu
+- Added keys to yuzu/suyu
+
+## Quickstart: Start Install in a Single Command
 ```
 git clone https://github.com/zbishop2002/Linux-SSBU-Optimizer.git && \
 cd Linux-SSBU-Optimizer && \ 
