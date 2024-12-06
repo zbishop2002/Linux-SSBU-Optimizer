@@ -1,7 +1,7 @@
 # SSBU Suyu/Yuzu Online Play Optimizer for Linux 
 
 <div align="center">
-  <img src="media/suyu-banner.png" alt="Suyu Banner" style="width: 75%;">
+  <img src="media/Banner.png" alt="Project Banner">
 </div>
 
 ## Yuzu/Suyu SSBU Optimizer for Linux
