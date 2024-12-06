@@ -5,7 +5,7 @@
 </div>
 
 ## Yuzu/Suyu SSBU Optimizer for Linux
-This repository provides a Linux port of [yuzu-ssbu-optimizer](https://github.com/saad-script/yuzu-ssbu-optimizer) by [saad-script](https://github.com/saad-script) to optimize Yuzu for **Super Smash Bros. Ultimate (SSBU)** online play. It includes some extras like Suyu support, automatic backup of your existing **sdmc**, and an alternative pre-modded portable Suyu instance to avoid touching existing configs.
+This repository provides a Linux port of [yuzu-ssbu-optimizer](https://github.com/saad-script/yuzu-ssbu-optimizer) by [saad-script](https://github.com/saad-script) to optimize Yuzu for **Super Smash Bros. Ultimate (SSBU)** online play. It includes most of what is in the original, as well as some extras like Suyu support, automatic backup of your existing **sdmc**, and an alternative pre-modded portable Suyu instance to avoid touching existing configs.
 
 The `ssbu-optimizer.sh` script automatically:
 - Renames the existing **sdmc** folder (mods folder) of your selected emulator to `sdmc-backup`, preserving your current configuration.
