@@ -30,6 +30,8 @@ For users who prefer not to modify their current Suyu/Yuzu mod configurations, t
 - It keeps your existing mod setups untouched.
 - Will work with the repository's base directory placed anywhere, as long as the internal file structure remains intact.
 
+## Manual Instructions
+
 ### Load Only Optimal SSBU Settings
 Place **/Linux-SSBU-Optimizer/emulator-files/01006A800016E000.ini** in its corresponding path to import only the game specific settings for SSBU:
 - Yuzu
@@ -37,7 +39,7 @@ Place **/Linux-SSBU-Optimizer/emulator-files/01006A800016E000.ini** in its corre
   - Flatpak: `~/.var/app/org.yuzu_emu.yuzu/config/yuzu/custom`
 - Suyu AppImage: `~/.config/suyu/custom`
 
-### Manual Mod Install
+### Mod Install
 If you have other mods installed and want to try to install the SSBU mods alongside them, you can try manually merging the contents of **/Linux-SSBU-Optimizer/emulator-files/sdmc/** with your preferred emulator's current sdmc. These are the corresponding paths: 
 - Yuzu
   - AppImage: `~/.local/share/yuzu/sdmc`
