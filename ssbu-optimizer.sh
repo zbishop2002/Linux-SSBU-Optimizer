@@ -23,7 +23,7 @@ case $choice in
     ;;
   3)
     target_dir="$HOME/.local/share/suyu"
-    custom_dir="$HOME/.config/suzu/custom"
+    custom_dir="$HOME/.config/suyu/custom"
     ;;
   *)
     echo "Invalid choice. Exiting."
