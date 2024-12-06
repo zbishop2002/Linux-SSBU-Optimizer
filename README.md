@@ -1,4 +1,4 @@
-# SuyuSSBUOptimized
+# SSBU Suyu/Yuzu Online Play Optimizer for Linux 
 
 <div align="center">
   <img src="media/suyu-banner.png" alt="Suyu Banner" style="width: 75%;">
@@ -12,7 +12,7 @@ The `ssbu-optimizer.sh` script automatically:
 - Installs a fresh **sdmc** folder preloaded with SSBU mods.
 
 ## Alternative: Isolated Suyu Instance
-For users who prefer not to modify their current Suyu/Yuzu mod configurations, the included `suyu-ssbu-optimized.sh` script offers a fully portable Suyu AppImage setup. It creates an isolated environment for SSBU using `/SuyuSSBUOptimized/home/` as its home folder. Some things to note about using this alternative are:
+For users who prefer not to modify their current Suyu/Yuzu mod configurations, the included `suyu-ssbu-optimized.sh` script offers a fully portable Suyu AppImage setup. It creates an isolated environment for SSBU using `/Linux-SSBU-Optimizer/home/` as its home folder. Some things to note about using this alternative are:
 
 - It keeps your existing mod setups untouched.
 - Will work with the repository's base directory placed anywhere, as long as the internal file structure remains intact.
