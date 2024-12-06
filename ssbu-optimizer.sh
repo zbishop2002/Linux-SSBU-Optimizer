@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define paths
-SOURCE_INI_FILE="/emulator-files/01006A800016E000.ini"
-SOURCE_SDMC="/emulator-files/sdmc"
+SOURCE_INI_FILE="$(pwd)/emulator-files/01006A800016E000.ini"
+SOURCE_SDMC="$(pwd)/emulator-files/sdmc"
 
 # Prompt user to select an option
 echo "Select the emulator where you want to install mods (the sdmc folder of your selected emulator, containing all its current mods, will remain in the same directory but renamed to sdmc-backup. The repo's sdmc folder will replace it.):"
