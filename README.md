@@ -24,7 +24,7 @@ You can choose to install any combination of the above three to your desired emu
 - Added keys to yuzu/suyu
 ## Quickstart: Clone & Start the Optimizer in a Few Clicks
 
-**These commands are queued up for sequential execution, paste the entire box in terminal to install and start the optimizer. 
+**These commands are queued up for sequential execution, paste the entire box in terminal to install and start the optimizer.** 
 ```
 git clone https://github.com/zbishop2002/Linux-SSBU-Optimizer.git && \
 cd Linux-SSBU-Optimizer && \ 
@@ -35,6 +35,7 @@ chmod +x SSBU-Optimizer.AppImage && \
 <div align="center">
   <img src="https://raw.githubusercontent.com/zbishop2002/Linux-SSBU-Optimizer/refs/heads/main/media/Preview.png" alt="Interface Preview">
 </div>
+
 ## Isolated Suyu Instance - Carefree Alternative for Separate Configs
 For users who prefer not to modify their current Suyu/Yuzu mod configurations, the included `suyu-ssbu-optimized.sh` script offers a fully portable Suyu AppImage setup. It creates an isolated environment for SSBU using `/Linux-SSBU-Optimizer/home/` as its home folder. Some things to note about using this alternative are:
 
