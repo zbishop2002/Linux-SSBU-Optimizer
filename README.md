@@ -14,7 +14,7 @@ This repository provides a Linux port of [yuzu-ssbu-optimizer](https://github.co
 - **Optimized Emulator Configuration**:
 	- Replaces the **sdmc** folder with one containing various SSBU 13.0.3 mods for enhanced online play.
     - Loads tailored emulation settings which impact SSBU exclusively
-    - Automatically imports a fully completed SSBU save file see [here](#troubleshooting-issues) for save file issues on multi-user instances)
+    - Automatically imports a fully completed SSBU save file see [here](#troubleshooting--issues) for save file issues on multi-user instances)
 
 You can choose to install any combination of the above three to your desired emulator.
 
