@@ -37,7 +37,7 @@ chmod +x SSBU-Optimizer.AppImage && \
 </div>
 
 ## Isolated Suyu Instance - Carefree Alternative for Separate Configs
-For users who prefer not to modify their current Suyu/Yuzu mod configurations, the included `suyu-ssbu-optimized.sh` script offers a fully portable Suyu AppImage setup. It creates an isolated environment for SSBU using `/Linux-SSBU-Optimizer/home/` as its home folder. Some things to note about using this alternative are:
+For users who prefer not to modify their current Suyu/Yuzu mod configurations, the included `Linux-SSBU-Optimized/preoptimized-suyu/suyu-ssbu-optimized.sh/` script offers a fully portable Suyu AppImage setup. It creates an isolated environment for SSBU using `/Linux-SSBU-Optimizer/preoptimized-suyu/home/` as its home folder. Some things to note about using this alternative are:
 
 - It keeps your existing mod setups untouched.
 - Will work with the repository's base directory placed anywhere, as long as the internal file structure remains intact.
@@ -56,14 +56,14 @@ The AppImage uses the xterm terminal and thus includes its libraries/executable.
 ## Manual Install Instructions (Save File Requires AppImage)
 
 ### Settings
-Place **/Linux-SSBU-Optimizer/emulator-files/01006A800016E000.ini** in its corresponding path to import only the game specific settings for SSBU:
+Place **/Linux-SSBU-Optimizer/manual-install/emulator-files/01006A800016E000.ini** in its corresponding path to import only the game specific settings for SSBU:
 - Yuzu
   - AppImage: `~/.config/yuzu/custom`
   - Flatpak: `~/.var/app/org.yuzu_emu.yuzu/config/yuzu/custom`
 - Suyu AppImage: `~/.config/suyu/custom`
 
 ### Mods
-If you have other mods installed and want to try to install the SSBU mods alongside them, you can try manually merging the contents of **/Linux-SSBU-Optimizer/emulator-files/sdmc/** with your preferred emulator's current sdmc. These are the corresponding paths: 
+If you have other mods installed and want to try to install the SSBU mods alongside them, you can try manually merging the contents of **/Linux-SSBU-Optimizer/manual-install/emulator-files/sdmc/** with your preferred emulator's current sdmc. These are the corresponding paths: 
 - Yuzu
   - AppImage: `~/.local/share/yuzu/sdmc`
   - Flatpak: `~/.var/app/org.yuzu_emu.yuzu/data/yuzu/sdmc`
